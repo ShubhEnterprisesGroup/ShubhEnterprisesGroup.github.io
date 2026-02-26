@@ -205,7 +205,7 @@ body{
 
 .team-content img {
     width: 100%;
-    border-radius: 100px;
+    border-radius: 20px;
     margin-bottom: 10px;
 }
 
@@ -213,6 +213,17 @@ body{
 .team-box:hover .team-content {
     transform: scale(1.08);
     opacity: 0.85;
+}
+
+.slicknav_icon .slicknav_icon-bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    width: 22px;
+    background-color: var(--white-color);
+    border-radius: 6px;
+    margin: 4px auto !important;
+    transition: all 0.1s ease-in-out;
 }
 
 .reveal img{
@@ -363,6 +374,12 @@ body{
 
 .readmore-btn:hover{
 	color: var(--accent-secondary-color);
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar {
+        padding: 20px 0;
+    }
 }
 
 .readmore-btn:after{
@@ -601,8 +618,7 @@ header.main-header .header-sticky.active{
 }
 
 .navbar-brand{
-	padding: 0;
-	margin: 0;
+	margin-right: -1rem !important;
 }
 
 .main-menu .nav-menu-wrapper{
@@ -795,7 +811,7 @@ header.main-header .header-sticky.active{
 }
 
 .slicknav_menu ul{
-	margin: 5px 0;
+	margin: 100px 0px 0px 0px;
 }
 
 .slicknav_menu ul ul{
@@ -880,7 +896,7 @@ header.main-header .header-sticky.active{
 .navbar {
     padding: 10px 0;
     align-items: center;
-    background-color: #3d493a;
+    background-color: #141c16f5;
     position: fixed;
     top: 0;
     left: 0;
@@ -5020,7 +5036,7 @@ nav#shophed {
 	}
 
 	.navbar{
-		padding: 20px 0;
+		padding: 15px 0;
 	}
 
 	.slicknav_nav li,
