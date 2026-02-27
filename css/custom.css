@@ -811,7 +811,7 @@ header.main-header .header-sticky.active{
 }
 
 .slicknav_menu ul{
-	margin: 100px 0px 0px 0px;
+	margin: 108px 0px 0px 0px;
 }
 
 .slicknav_menu ul ul{
@@ -895,16 +895,16 @@ header.main-header .header-sticky.active{
 
 .navbar {
     padding: 10px 0;
-    align-items: center;
+    align-items: start;
     background-color: #141c16f5;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    /* top: 0; */
+    left: -63px;
+    width: 114%;
     /* padding: 30px 0; */
     /* background: #272626; */
     z-index: 9999;
-	letter-spacing: 2px;
+    letter-spacing: 2px;
 }
 
 .hero.hero-video .hero-bg-video{
@@ -2729,6 +2729,12 @@ nav#shophed {
 
     .coming-content p {
         font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar {
+        padding: 20px 0;
     }
 }
 
